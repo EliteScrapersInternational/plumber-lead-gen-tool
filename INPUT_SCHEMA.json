@@ -1,0 +1,22 @@
+{
+    "title": "AI Lead Gen Bot - Plumber Edition",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "locations": {
+            "title": "Cities to Scrape",
+            "type": "array",
+            "description": "Add cities here (e.g., Brooklyn, Miami, Austin)",
+            "editor": "stringList",
+            "prefill": ["Brooklyn", "Queens"]
+        },
+        "maxResults": {
+            "title": "Max Leads per City",
+            "type": "integer",
+            "description": "How many plumbers per city?",
+            "default": 20,
+            "minimum": 1
+        }
+    },
+    "required": ["locations"]
+}
