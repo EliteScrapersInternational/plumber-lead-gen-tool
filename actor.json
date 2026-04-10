@@ -1,0 +1,22 @@
+{
+    "actorSpecification": 1,
+    "name": "ai-lead-gen-bot",
+    "version": "0.0",
+    "buildTag": "latest",
+    "title": "Plumber Lead Results",
+    "input": "./input_schema.json",
+    "output": "./output_schema.json",
+    "views": {
+        "overview": {
+            "title": "Plumber Leads",
+            "transformation": {
+                "fields": [
+                    "businessName",
+                    "opportunityScore",
+                    "phoneNumber",
+                    "website"
+                ]
+            }
+        }
+    }
+}
