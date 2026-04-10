@@ -1,32 +1,13 @@
 {
+    "actorOutputSchemaVersion": 1,
     "title": "Lead Generation Results",
     "type": "object",
-    "schemaVersion": 1,
     "properties": {
-        "searchQuery": {
+        "dataset": {
             "type": "string",
-            "title": "Search Query",
-            "description": "The city and niche searched."
-        },
-        "businessName": {
-            "type": "string",
-            "title": "Business Name",
-            "description": "Name of the lead."
-        },
-        "phone": {
-            "type": "string",
-            "title": "Phone Number",
-            "description": "Contact number."
-        },
-        "website": {
-            "type": "string",
-            "title": "Website URL",
-            "description": "Official website link."
-        },
-        "needs_marketing_help": {
-            "type": "string",
-            "title": "Marketing Opportunity",
-            "description": "YES if they lack a website or use social media only."
+            "title": "Leads Dataset",
+            "description": "The final list of scraped leads.",
+            "template": "{{links.apiDefaultDatasetUrl}}/items"
         }
     }
 }
