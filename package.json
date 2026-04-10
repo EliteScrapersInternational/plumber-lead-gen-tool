@@ -1,0 +1,14 @@
+{
+	"name": "plumber-lead-gen-tool",
+	"version": "1.0.0",
+	"type": "module",
+	"description": "AI-powered tool to identify high-value leads for marketing agencies in the plumbing niche.",
+	"dependencies": {
+		"apify": "^3.0.0"
+	},
+	"scripts": {
+		"start": "node main.js"
+	},
+	"author": "YourName",
+	"license": "ISC"
+}
